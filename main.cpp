@@ -3,7 +3,12 @@
 using namespace std;
 
 int main() {// T
-   cout << "Hello world!" << endl;
+   string name = "Itumeleng";
+   int age = 10;
+
+   cout << "My name is " << name << endl;
+   cout << "I am " << age << " years old." << endl;
 
    return 0;
+
 }
