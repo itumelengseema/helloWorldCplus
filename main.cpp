@@ -2,13 +2,13 @@
 
 using namespace std;
 
-int main() {// T
-   string name = "Itumeleng";
-   int age = 10;
+int main() {
+    int num1 = 10;
+    int num2 = 5;
 
-   cout << "My name is " << name << endl;
-   cout << "I am " << age << " years old." << endl;
-
-   return 0;
-
+    cout << "Total= " <<num1 + num2 << endl;
+    cout << "Total= " <<num1 - num2 << endl;
+    cout << "Total= " <<num1 * num2 << endl;
+    cout << "Total= " <<num1 / num2 << endl;
+    return 0;
 }
